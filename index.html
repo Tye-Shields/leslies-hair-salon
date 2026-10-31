@@ -1,10 +1,25 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-CA">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Leslie's Hair Salon | Hairdresser on Bridgewater St, Niagara Falls</title>
 <meta name="description" content="Leslie's Hair Salon on Bridgewater St in Niagara Falls: cuts, colour and styling done exactly as you ask. 5 stars on Google. Open Wed–Sat. Call (905) 380-9684.">
+<link rel="canonical" href="https://tye-shields.github.io/leslies-hair-salon/">
+<meta name="geo.region" content="CA-ON">
+<meta name="geo.placename" content="Niagara Falls">
+<meta name="geo.position" content="43.058984;-79.051857">
+<meta name="ICBM" content="43.058984, -79.051857">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_CA">
+<meta property="og:url" content="https://tye-shields.github.io/leslies-hair-salon/">
+<meta property="og:title" content="Leslie&#x27;s Hair Salon | Hairdresser on Bridgewater St, Niagara Falls">
+<meta property="og:description" content="Leslie&#x27;s Hair Salon on Bridgewater St in Niagara Falls: cuts, colour and styling done exactly as you ask. 5 stars on Google. Open Wed–Sat. Call (905) 380-9684.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1626383137804-ff908d2753a2?w=1600&q=80&auto=format&fit=crop">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "HairSalon", "@id": "https://tye-shields.github.io/leslies-hair-salon/#business", "name": "Leslie's Hair Salon", "description": "Leslie's Hair Salon on Bridgewater St in Niagara Falls: cuts, colour and styling done exactly as you ask. 5 stars on Google. Open Wed–Sat. Call (905) 380-9684.", "url": "https://tye-shields.github.io/leslies-hair-salon/", "telephone": "+19053809684", "image": "https://images.unsplash.com/photo-1626383137804-ff908d2753a2?w=1600&q=80&auto=format&fit=crop", "address": {"@type": "PostalAddress", "addressLocality": "Niagara Falls", "addressRegion": "ON", "addressCountry": "CA", "streetAddress": "3748 Bridgewater St", "postalCode": "L2G 6H3"}, "geo": {"@type": "GeoCoordinates", "latitude": 43.058984, "longitude": -79.051857}, "areaServed": {"@type": "City", "name": "Niagara Falls"}, "hasMap": "https://maps.google.com/?cid=16573992863694657669", "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "10:30", "closes": "17:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "10:30", "closes": "17:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "10:30", "closes": "17:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:30", "closes": "17:00"}]}</script>
+<script>if(!matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.classList.add('motion')</script>
+<script src="https://cdn.jsdelivr.net/npm/motion@14.3.0/dist/motion.js" defer onerror="document.documentElement.classList.remove('motion')"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -96,13 +111,21 @@ form .btn{width:100%;margin-top:22px}
 .credit a{color:#a9a5a2}
 .mcall{display:none}
 .num{display:none}
+address{font-style:normal}
+.fh{font:700 22px 'EB Garamond',Georgia,serif;color:#fff;margin:0 0 10px!important}
+.progress{position:fixed;top:0;left:0;right:0;height:3px;background:var(--a);transform:scaleX(0);transform-origin:0 50%;z-index:30}
+.card,blockquote{transition:box-shadow .3s}
+.card:hover,blockquote:hover{box-shadow:0 18px 40px -18px rgba(0,0,0,.28)}
+.svc-list .card:hover{box-shadow:none}
+.motion :is(.strip .wrap>div,section .kicker,section h2,.lede,.gbadge,.card,blockquote,.photos img,.about p,.about li,.visit address,.visit table,.map,form),.motion .hero .wrap>div>*,.motion .hero figure{opacity:0}
 .head-dark header{background:var(--ink);border-color:transparent}
 .head-dark header nav a,.head-dark .brand b{color:#fff}
 .head-dark .brand small{color:rgba(255,255,255,.75)}
 .hero-full .hero{position:relative;isolation:isolate}
 .hero-full .hero .wrap{grid-template-columns:1fr;min-height:78vh;padding-top:110px;padding-bottom:110px}
 .hero-full .hero figure{position:absolute;inset:0;z-index:-1;max-width:none}
-.hero-full .hero figure img{height:100%;aspect-ratio:auto;border-radius:0}
+.hero-full .hero figure{overflow:hidden}
+.hero-full .hero figure img{height:calc(100% + 80px);margin-top:-80px;aspect-ratio:auto;border-radius:0}
 .hero-full .hero figure::before{inset:0;border:0;border-radius:0;background:linear-gradient(90deg,rgba(0,0,0,.85),rgba(0,0,0,.65));z-index:1}
 .hero-full .hero h1{color:#fff;max-width:720px}
 .hero-full .hero h1 em,.hero-full .eyebrow .stars{color:var(--hi-p)}
@@ -160,6 +183,7 @@ form .btn{width:100%;margin-top:22px}
 </style>
 </head>
 <body class="hero-center svc-list rev-feature about-single head-light">
+<div class="progress" aria-hidden="true"></div>
 <header>
   <div class="wrap">
     <a class="brand" href="#top"><b>Leslie's</b><small>Hair Salon · Niagara Falls</small></a>
@@ -175,11 +199,11 @@ form .btn{width:100%;margin-top:22px}
       <p>A friendly neighbourhood salon in Niagara Falls, where your cut, colour and style come out the way you asked for them.</p>
       <div class="ctas"><a class="btn btn-a" href="#book">Book a visit</a><a class="btn btn-line" href="tel:+19053809684">Call (905) 380-9684</a></div>
     </div>
-    <figure><img src="https://images.unsplash.com/photo-1626383137804-ff908d2753a2?w=1600&q=80&auto=format&fit=crop" alt="A bright salon with styling chairs and mirrors"></figure>
+    <figure><img src="https://images.unsplash.com/photo-1626383137804-ff908d2753a2?w=1600&q=80&auto=format&fit=crop" alt="A bright salon with styling chairs and mirrors" fetchpriority="high"></figure>
   </div></div>
   <div class="strip"><div class="wrap"><div><b>Listens first</b><span>Your hair, your way.</span></div><div><b>5-star rated</b><span>Every review is five stars.</span></div><div><b>Open Wed–Sat</b><span>10:30 a.m. – 5 p.m.</span></div></div></div>
   <section id="services" class="center"><div class="wrap">
-    <div class="kicker">What we do</div><h2>Salon services</h2><p class="lede">Classic salon care, done with attention.</p>
+    <div class="kicker">Services in Niagara Falls</div><h2>Salon services</h2><p class="lede">Classic salon care, done with attention.</p>
     <div class="grid">
         <div class="card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4L8.1 15.9M14.5 14.5L20 20M8.1 8.1L12 12"/></svg>
           <div><span class="num">01</span><h3>Cuts</h3><p>Trims and restyles shaped to what you want.</p></div></div>
@@ -204,8 +228,8 @@ form .btn{width:100%;margin-top:22px}
   </div></section>
   <section id="visit" class="visit"><div class="wrap cols">
     <div>
-      <div class="kicker">Visit</div><h2>Hours &amp; location</h2>
-      <p><strong>3748 Bridgewater St, Niagara Falls, ON L2G 6H3</strong><br><a href="tel:+19053809684">(905) 380-9684</a></p>
+      <div class="kicker">Visit</div><h2>Hours &amp; location in Niagara Falls</h2>
+      <address><p><strong>3748 Bridgewater St, Niagara Falls, ON L2G 6H3</strong><br><a href="tel:+19053809684">(905) 380-9684</a></p></address>
       <table><tr class=closed><td>Monday</td><td>Closed</td></tr><tr class=closed><td>Tuesday</td><td>Closed</td></tr><tr><td>Wednesday</td><td>10:30 a.m. – 5 p.m.</td></tr><tr><td>Thursday</td><td>10:30 a.m. – 5 p.m.</td></tr><tr><td>Friday</td><td>10:30 a.m. – 5 p.m.</td></tr><tr><td>Saturday</td><td>10:30 a.m. – 5 p.m.</td></tr><tr class=closed><td>Sunday</td><td>Closed</td></tr></table>
       <iframe class="map" title="Map to Leslie's Hair Salon" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Leslie%27s+hair+salon%2C+3748+Bridgewater+St%2C+Niagara+Falls%2C+ON&output=embed"></iframe>
     </div>
@@ -229,9 +253,9 @@ form .btn{width:100%;margin-top:22px}
 </main>
 <footer class="foot"><div class="wrap">
   <div class="cols">
-    <div><h3>Leslie's Hair Salon</h3><p>3748 Bridgewater St, Niagara Falls, ON L2G 6H3</p></div>
-    <div><h3>Call</h3><p><a href="tel:+19053809684">(905) 380-9684</a></p></div>
-    <div><h3>Hours</h3><p>Wed–Sat<br>10:30 a.m. – 5 p.m.</p></div>
+    <address><p class="fh">Leslie's Hair Salon</p><p>3748 Bridgewater St, Niagara Falls, ON L2G 6H3</p></address>
+    <div><p class="fh">Call</p><p><a href="tel:+19053809684">(905) 380-9684</a></p></div>
+    <div><p class="fh">Hours</p><p>Wed–Sat<br>10:30 a.m. – 5 p.m.</p></div>
   </div>
   <div class="credit">Demo site by Tye Shields · <a href="mailto:Inquires@tyeshields.ca">Inquires@tyeshields.ca</a> · Photos: Unsplash</div>
 </div></footer>
@@ -242,6 +266,24 @@ document.getElementById('book').addEventListener('submit', e => {
   e.preventDefault();
   document.getElementById('sent').style.display = 'block';
   e.target.querySelector('button').disabled = true;
+});
+// Motion (motion.dev): hero entrance, scroll reveals, parallax, progress bar, hover/press feedback.
+addEventListener('DOMContentLoaded', () => {
+  const root = document.documentElement;
+  if (!root.classList.contains('motion')) return;
+  if (!window.Motion) return root.classList.remove('motion');
+  const { animate, inView, scroll, stagger, hover, press } = Motion;
+  const ease = [0.22, 1, 0.36, 1], $$ = q => [...document.querySelectorAll(q)];
+  animate($$('.hero .wrap>div>*'), { opacity: [0, 1], y: [28, 0] }, { duration: 0.8, delay: stagger(0.09), ease });
+  animate('.hero figure', { opacity: [0, 1], scale: [1.04, 1] }, { duration: 1.1, ease });
+  if (document.querySelector('.hero-full')) scroll(animate('.hero figure img', { y: [0, 70] }, { ease: 'linear' }), { target: document.querySelector('.hero'), offset: ['start start', 'end start'] });
+  scroll(animate('.progress', { scaleX: [0, 1] }, { ease: 'linear' }));
+  for (const g of $$('.strip, section')) {
+    const els = [...g.querySelectorAll('.strip .wrap>div,section .kicker,section h2,.lede,.gbadge,.card,blockquote,.photos img,.about p,.about li,.visit address,.visit table,.map,form')];
+    inView(g, () => { animate(els, { opacity: [0, 1], y: [24, 0] }, { duration: 0.7, delay: stagger(0.06), ease }); }, { amount: 0.12 });
+  }
+  hover('.card, blockquote', el => { animate(el, { y: -6 }, { duration: 0.3 }); return () => animate(el, { y: 0 }, { duration: 0.3 }); });
+  press('.btn', el => { animate(el, { scale: 0.96 }, { duration: 0.12 }); return () => animate(el, { scale: 1 }, { type: 'spring', stiffness: 500 }); });
 });
 </script>
 </body>
